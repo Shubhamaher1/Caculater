@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body style="background: rgb(199, 199, 149);">
+    <div id="main" style="margin-left: 38%; margin-right: 42%; text-align: center; border: 2px solid red; background-color: black; " >
+        <h3 style="color: white;">Calculater</h3>
+        <div id="screen">
+            <input type="text" id="input" value="" placeholder="0000000000000000000000000" style="width: 250px; height: 60px; background: chartreuse; font-size: large ; text-align: end;">
+        </div>
+        <div id="button1">
+            <div id="row1">
+                <button id="button"
+                    style="width:60px;height: 60px; text-align: center; margin-top: 10px; font-size: large;" onclick="fun1()">1</button>
+                <button id="button"
+                    style="width: 60px;height: 60px; text-align: center;margin-top: 10px;font-size: large;" onclick="fun2()">2</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="fun3()">3</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;"onclick="clr()" >clr</button>
+            </div>
+            <div id="row2">
+                <button id="button"
+                    style="width: 60px;height: 60px; text-align: center;margin-top: 10px;font-size: large;" onclick="fun4()">4</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="fun5()">5</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="fun6()">6</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="add()">+</button>
+            </div>
+            <div id="row3">
+                <button id="button"
+                    style="width: 60px;height: 60px; text-align: center;margin-top: 10px;font-size: large;" onclick="fun7()">7</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="fun8()">8</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="fun9()">9</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;"onclick="min()">-</button>
+            </div>
+            <div id="row4">
+                <button id="button"
+                    style="width: 60px;height: 60px; text-align: center;margin-top: 10px;font-size: large;" onclick="div()">/</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;"onclick="fun0()">0</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="mul()">*</button>
+                <button id="button" style="width: 60px;height: 60px; text-align: center;font-size: large;" onclick="dot()">.</button>
+            </div>
+            <div id="row5">
+                <button id="button"
+                    style="width: 60px;height: 60px; text-align: center;margin-top: 10px;font-size: large;" onclick="ans()">=</button>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
